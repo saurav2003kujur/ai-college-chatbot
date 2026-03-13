@@ -1,0 +1,111 @@
+{
+ "intents": [
+
+  {
+   "tag": "greeting",
+   "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+   "responses": ["Hello! How can I help you?", "Hi there! What would you like to know about the college?"]
+  },
+
+  {
+   "tag": "college_name",
+   "patterns": ["What is the college name",
+     "Which college is this",
+     "Tell me the college name"],
+   "responses": ["This is Sarala Birla University."]
+  },
+
+  {
+   "tag": "location",
+   "patterns": ["Where is the college located", 
+   "College location", 
+   "Where is SBU"],
+   "responses": ["Sarala Birla University is located in Ranchi, Jharkhand, India."]
+  },
+
+  {
+   "tag": "courses",
+   "patterns": ["What courses are available",
+    "Courses offered", 
+    "Programs in the college"],
+   "responses": ["The university offers courses like B.Tech, BBA, BCA, MBA, and many more."]
+  },
+
+  {
+   "tag": "admission",
+   "patterns": ["How can I take admission", 
+   "Admission process", 
+   "How to apply"],
+   "responses": ["You can apply online through the official college admission portal."]
+  },
+
+  {
+   "tag": "fees",
+   "patterns": ["What is the fee structure",
+    "How much are the fees", 
+    "Course fees"],
+   "responses": ["The fee structure depends on the course. Please visit the official website for detailed information."]
+  },
+
+  {
+   "tag": "hostel",
+   "patterns": ["Is hostel available", 
+   "Hostel facilities", 
+   "Does the college provide hostel"],
+   "responses": ["Yes, the university provides hostel facilities for both boys and girls."]
+  },
+
+  {
+   "tag": "library",
+   "patterns": ["Is there a library", 
+   "Library facilities", 
+   "Tell me about the library"],
+   "responses": ["Yes, the university has a well-equipped library with many books and digital resources."]
+  },
+
+  {
+   "tag": "placements",
+   "patterns": ["Placement opportunities", 
+   "Does the college provide placements", 
+   "Placement companies"],
+   "responses": ["The university provides placement assistance with many companies visiting the campus."]
+  },
+
+  {
+   "tag": "contact",
+   "patterns": ["How to contact the college", 
+   "College phone number", 
+   "Contact details"],
+   "responses": ["You can contact the college through the official website or administration office."]
+  },
+
+  {
+   "tag": "thankyou",
+   "patterns": ["Thank you", 
+   "Thanks", 
+   "Thanks a lot"],
+   "responses": ["You're welcome!", "Happy to help!"]
+  },
+
+  {
+   "tag": "goodbye",
+   "patterns": ["Bye",
+    "Goodbye", 
+    "See you later"],
+   "responses": ["Goodbye! Have a great day.", "See you again!"]
+  },
+
+ {
+  "tag": "location",
+  "patterns": ["Where is the college located",
+  "College location",
+  "Show college on map",
+  "Where is Sarala Birla University",
+  "College address"],
+  "responses": [
+  "Sarala Birla University is located in Ranchi, Jharkhand. Here is the location on the map."]
+  }
+
+ ]
+}
+
